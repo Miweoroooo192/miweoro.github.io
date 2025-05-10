@@ -1,0 +1,44 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana;
+}
+.hostsection {
+  background-color: transparent;
+  width: 350px;
+  height: 160px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+.neocities {
+  width: 210px;
+  height: 69px
+}
+.a {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+            display: none;
+            position: fixed;
+            background-color: white;
+            background: white;
+            color: black;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            width: 100px;
+            height: 50px;
+            right: 0;
+            top: 3%;
+  
+}

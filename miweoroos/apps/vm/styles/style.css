@@ -1,0 +1,13 @@
+.homescreen {
+  font-size: 40px;
+}
+
+.win95 {
+  display: none;
+}
+.miweoro {
+  display: none;
+}
+body {
+  background-image: url(https://blueosmuseum.com/chicago/73g/vlcsnap-2018-12-16-21h27m24s440.png);
+}

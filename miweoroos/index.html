@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Miweoro OS</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <style>
+    #notepad {
+            width: 100%; /* Fill the container */
+            height: 400px;
+            border: none;
+            display: block;
+        }
+  </style>
+</head>
+<body><script>let note = document.getElementById("notepad")
+document.getElementById("notepad").style.display = "none";
+function openTest() {
+    document.getElementById("notepad").style.display = "block";
+}    </script>
+  <h1 class="c1" id="test">
+    Hello, Welcome to the Miweoro OS!
+  </h1>
+  <p onclick="openTest()" style="color:white;">Notepad 📜</p>
+  <div id="notepad" style="display: none;">
+    <iframe src="https://miweoro.neocities.org/miweoroos/apps/notepad/"></iframe>
+  </div>
+  <button class="start" onclick="myShit()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Start</button>
+  <div class="div"><span>Miweoro OS ver test (50% done)</span></div>
+</body>
+</html>
